@@ -37,7 +37,7 @@ fun main() {
     val testInput = readInput("main/resources/Day${newDayNum}_test")
     check(part1(testInput) == 0)
     
-    val testInput2 = readInput("main/resources/Day01_test2")
+    val testInput2 = readInput("main/resources/Day${newDayNum}_test2")
     check(part2(testInput2) == 0)
     
     val input = readInput("main/resources/Day$newDayNum")
